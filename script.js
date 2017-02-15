@@ -20,7 +20,7 @@ var updateProfile = function () {
   '  <a href="mailto:' + email + '"target="_blank">' + email + '</a>\n' +
   '  or give me a call at \n' +
   '  <a href="tel:' + phoneNumber + '" target="_blank">' + phoneNumber + '</a>.\n' +
-  '</p\n>'
+  '</p>'
 
   rawHTML.textContent = profile.innerHTML
 }
